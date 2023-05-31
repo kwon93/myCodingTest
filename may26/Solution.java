@@ -15,10 +15,3 @@ class Solution {
         return answer;
     }
 }
-class Main{
-    public static void main(String[] args) {
-        Solution s = new Solution();
-        long result = s.solution(5,3);
-        System.out.println(result);
-    }
-}
