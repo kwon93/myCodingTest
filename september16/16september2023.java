@@ -12,12 +12,11 @@ import java.util.Scanner;
 * c -> 12
 *
 */
-
 public class Main {
-            public static void main(String[] args) throws IOException {
-                             Scanner in = new Scanner(System.in);
-                             String input = in.next();
-                             System.out.println(Integer.parseInt(input,16));
-                             in.close();
-             }
+    public static void main(String[] args) throws IOException {
+            Scanner in = new Scanner(System.in);
+            String input = in.next();
+            System.out.println(Integer.parseInt(input,16));
+            in.close();
+    }
 }
